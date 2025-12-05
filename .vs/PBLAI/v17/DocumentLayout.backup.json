@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rzaa\\source\\repos\\pblai\\pblai\\formhasilawal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formhasilawal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rzaa\\source\\repos\\pblai\\pblai\\formpertanyaanawal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formpertanyaanawal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rzaa\\source\\repos\\pblai\\pblai\\formpertanyaanawal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formpertanyaanawal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rzaa\\source\\repos\\pblai\\pblai\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rzaa\\source\\repos\\pblai\\pblai\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rzaa\\source\\repos\\pblai\\pblai\\globaluser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\globaluser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormHasilAwal.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\FormHasilAwal.vb",
+              "RelativeDocumentMoniker": "PBLAI\\FormHasilAwal.vb",
+              "ToolTip": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\FormHasilAwal.vb [Design]",
+              "RelativeToolTip": "PBLAI\\FormHasilAwal.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-12-04T16:45:50.985Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormPertanyaanAwal.vb",
+              "DocumentMoniker": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\FormPertanyaanAwal.vb",
+              "RelativeDocumentMoniker": "PBLAI\\FormPertanyaanAwal.vb",
+              "ToolTip": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\FormPertanyaanAwal.vb",
+              "RelativeToolTip": "PBLAI\\FormPertanyaanAwal.vb",
+              "ViewState": "AgIAAFkAAAAAAAAAAIAzwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-12-04T15:31:24.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPertanyaanAwal.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\FormPertanyaanAwal.vb",
+              "RelativeDocumentMoniker": "PBLAI\\FormPertanyaanAwal.vb",
+              "ToolTip": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\FormPertanyaanAwal.vb [Design]",
+              "RelativeToolTip": "PBLAI\\FormPertanyaanAwal.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-12-01T02:28:35.973Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GlobalUser.vb",
+              "DocumentMoniker": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\GlobalUser.vb",
+              "RelativeDocumentMoniker": "PBLAI\\GlobalUser.vb",
+              "ToolTip": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\GlobalUser.vb",
+              "RelativeToolTip": "PBLAI\\GlobalUser.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-12-01T02:18:18.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\Form1.vb",
+              "RelativeDocumentMoniker": "PBLAI\\Form1.vb",
+              "ToolTip": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\Form1.vb",
+              "RelativeToolTip": "PBLAI\\Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-12-01T00:34:40.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\Form1.vb",
+              "RelativeDocumentMoniker": "PBLAI\\Form1.vb",
+              "ToolTip": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\Form1.vb [Design]",
+              "RelativeToolTip": "PBLAI\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-12-01T00:26:01.643Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
