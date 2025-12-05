@@ -173,6 +173,7 @@ Partial Class FormHasilAwal
         ' 
         ' questionTimer
         ' 
+        questionTimer.Interval = 1000
         ' 
         ' labelTopic2
         ' 

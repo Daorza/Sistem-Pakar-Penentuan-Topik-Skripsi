@@ -23,10 +23,10 @@ Partial Class FormHasilAkhir
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         labelTopic3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         labelTopic2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         nextButton = New Guna.UI2.WinForms.Guna2Button()
@@ -70,7 +70,7 @@ Partial Class FormHasilAkhir
         ' nextButton
         ' 
         nextButton.BorderRadius = 8
-        nextButton.CustomizableEdges = CustomizableEdges5
+        nextButton.CustomizableEdges = CustomizableEdges1
         nextButton.DisabledState.BorderColor = Color.DarkGray
         nextButton.DisabledState.CustomBorderColor = Color.DarkGray
         nextButton.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -79,7 +79,7 @@ Partial Class FormHasilAkhir
         nextButton.ForeColor = Color.White
         nextButton.Location = New Point(370, 383)
         nextButton.Name = "nextButton"
-        nextButton.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        nextButton.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         nextButton.Size = New Size(225, 39)
         nextButton.TabIndex = 23
         nextButton.Text = "Lanjutkan!"
@@ -87,7 +87,7 @@ Partial Class FormHasilAkhir
         ' endButton
         ' 
         endButton.BorderRadius = 8
-        endButton.CustomizableEdges = CustomizableEdges7
+        endButton.CustomizableEdges = CustomizableEdges3
         endButton.DisabledState.BorderColor = Color.DarkGray
         endButton.DisabledState.CustomBorderColor = Color.DarkGray
         endButton.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -96,7 +96,7 @@ Partial Class FormHasilAkhir
         endButton.ForeColor = Color.White
         endButton.Location = New Point(152, 383)
         endButton.Name = "endButton"
-        endButton.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        endButton.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         endButton.Size = New Size(212, 39)
         endButton.TabIndex = 22
         endButton.Text = "Selesaikan"
@@ -193,6 +193,10 @@ Partial Class FormHasilAkhir
         Guna2BorderlessForm1.ContainerControl = Me
         Guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6R
         Guna2BorderlessForm1.TransparentWhileDrag = True
+        ' 
+        ' questionTimer
+        ' 
+        questionTimer.Interval = 1000
         ' 
         ' labelSubTopik3
         ' 

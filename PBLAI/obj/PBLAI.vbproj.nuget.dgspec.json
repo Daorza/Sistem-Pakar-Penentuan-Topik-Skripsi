@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\PBLAI.vbproj": {}
+    "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\PBLAI.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\PBLAI.vbproj": {
+    "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\PBLAI.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\PBLAI.vbproj",
+        "projectUniqueName": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\PBLAI.vbproj",
         "projectName": "PBLAI",
-        "projectPath": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\PBLAI.vbproj",
-        "packagesPath": "C:\\Users\\Rzaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\obj\\",
+        "projectPath": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\PBLAI.vbproj",
+        "packagesPath": "C:\\Users\\Rizki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Rzaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rizki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,6 +53,10 @@
             "Guna.UI2.WinForms": {
               "target": "Package",
               "version": "[2.0.4.7, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.3, )"
             }
           },
           "imports": [
@@ -74,7 +78,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
