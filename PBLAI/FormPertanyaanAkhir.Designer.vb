@@ -23,18 +23,18 @@ Partial Class FormPertanyaanAkhir
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(components)
         questionTimer = New Timer(components)
         Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -52,11 +52,11 @@ Partial Class FormPertanyaanAkhir
         radio3 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
         radio2 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
         radio1 = New Guna.UI2.WinForms.Guna2CustomRadioButton()
-        labelPertanyaan = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Guna2Separator1 = New Guna.UI2.WinForms.Guna2Separator()
         labelTimer = New Guna.UI2.WinForms.Guna2HtmlLabel()
         labelTitle = New Guna.UI2.WinForms.Guna2HtmlLabel()
         labelProgress = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        labelPertanyaan = New Guna.UI2.WinForms.Guna2HtmlLabel()
         SuspendLayout()
         ' 
         ' Guna2BorderlessForm1
@@ -125,11 +125,11 @@ Partial Class FormPertanyaanAkhir
         ' 
         ' progressBar
         ' 
-        progressBar.CustomizableEdges = CustomizableEdges1
+        progressBar.CustomizableEdges = CustomizableEdges13
         progressBar.FillColor = Color.CornflowerBlue
         progressBar.Location = New Point(19, 111)
         progressBar.Name = "progressBar"
-        progressBar.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        progressBar.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         progressBar.Size = New Size(763, 18)
         progressBar.TabIndex = 33
         progressBar.Text = "Guna2ProgressBar1"
@@ -138,7 +138,7 @@ Partial Class FormPertanyaanAkhir
         ' buttonSelanjutnya
         ' 
         buttonSelanjutnya.BorderRadius = 10
-        buttonSelanjutnya.CustomizableEdges = CustomizableEdges3
+        buttonSelanjutnya.CustomizableEdges = CustomizableEdges15
         buttonSelanjutnya.DisabledState.BorderColor = Color.DarkGray
         buttonSelanjutnya.DisabledState.CustomBorderColor = Color.DarkGray
         buttonSelanjutnya.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -147,7 +147,7 @@ Partial Class FormPertanyaanAkhir
         buttonSelanjutnya.ForeColor = Color.White
         buttonSelanjutnya.Location = New Point(545, 341)
         buttonSelanjutnya.Name = "buttonSelanjutnya"
-        buttonSelanjutnya.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        buttonSelanjutnya.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         buttonSelanjutnya.Size = New Size(225, 56)
         buttonSelanjutnya.TabIndex = 32
         buttonSelanjutnya.Text = "Selanjutnya"
@@ -155,7 +155,7 @@ Partial Class FormPertanyaanAkhir
         ' buttonKembali
         ' 
         buttonKembali.BorderRadius = 10
-        buttonKembali.CustomizableEdges = CustomizableEdges5
+        buttonKembali.CustomizableEdges = CustomizableEdges17
         buttonKembali.DisabledState.BorderColor = Color.DarkGray
         buttonKembali.DisabledState.CustomBorderColor = Color.DarkGray
         buttonKembali.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -164,7 +164,7 @@ Partial Class FormPertanyaanAkhir
         buttonKembali.ForeColor = Color.White
         buttonKembali.Location = New Point(33, 350)
         buttonKembali.Name = "buttonKembali"
-        buttonKembali.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        buttonKembali.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         buttonKembali.Size = New Size(225, 56)
         buttonKembali.TabIndex = 31
         buttonKembali.Text = "Kembali"
@@ -177,7 +177,7 @@ Partial Class FormPertanyaanAkhir
         radio6.CheckedState.InnerColor = Color.White
         radio6.Location = New Point(704, 220)
         radio6.Name = "radio6"
-        radio6.ShadowDecoration.CustomizableEdges = CustomizableEdges7
+        radio6.ShadowDecoration.CustomizableEdges = CustomizableEdges19
         radio6.Size = New Size(25, 25)
         radio6.TabIndex = 30
         radio6.Text = "Guna2CustomRadioButton1"
@@ -194,7 +194,7 @@ Partial Class FormPertanyaanAkhir
         radio5.CheckedState.InnerColor = Color.White
         radio5.Location = New Point(598, 220)
         radio5.Name = "radio5"
-        radio5.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        radio5.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         radio5.Size = New Size(25, 25)
         radio5.TabIndex = 29
         radio5.Text = "Guna2CustomRadioButton1"
@@ -211,7 +211,7 @@ Partial Class FormPertanyaanAkhir
         radio4.CheckedState.InnerColor = Color.White
         radio4.Location = New Point(482, 220)
         radio4.Name = "radio4"
-        radio4.ShadowDecoration.CustomizableEdges = CustomizableEdges9
+        radio4.ShadowDecoration.CustomizableEdges = CustomizableEdges21
         radio4.Size = New Size(25, 25)
         radio4.TabIndex = 28
         radio4.Text = "Guna2CustomRadioButton1"
@@ -228,7 +228,7 @@ Partial Class FormPertanyaanAkhir
         radio3.CheckedState.InnerColor = Color.White
         radio3.Location = New Point(359, 220)
         radio3.Name = "radio3"
-        radio3.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        radio3.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         radio3.Size = New Size(25, 25)
         radio3.TabIndex = 27
         radio3.Text = "Guna2CustomRadioButton1"
@@ -245,7 +245,7 @@ Partial Class FormPertanyaanAkhir
         radio2.CheckedState.InnerColor = Color.White
         radio2.Location = New Point(233, 220)
         radio2.Name = "radio2"
-        radio2.ShadowDecoration.CustomizableEdges = CustomizableEdges11
+        radio2.ShadowDecoration.CustomizableEdges = CustomizableEdges23
         radio2.Size = New Size(25, 25)
         radio2.TabIndex = 26
         radio2.Text = "Guna2CustomRadioButton1"
@@ -262,7 +262,7 @@ Partial Class FormPertanyaanAkhir
         radio1.CheckedState.InnerColor = Color.White
         radio1.Location = New Point(85, 220)
         radio1.Name = "radio1"
-        radio1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        radio1.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         radio1.Size = New Size(25, 25)
         radio1.TabIndex = 25
         radio1.Text = "Guna2CustomRadioButton1"
@@ -270,15 +270,6 @@ Partial Class FormPertanyaanAkhir
         radio1.UncheckedState.BorderThickness = 2
         radio1.UncheckedState.FillColor = Color.Transparent
         radio1.UncheckedState.InnerColor = Color.Transparent
-        ' 
-        ' labelPertanyaan
-        ' 
-        labelPertanyaan.BackColor = Color.Transparent
-        labelPertanyaan.Location = New Point(25, 148)
-        labelPertanyaan.Name = "labelPertanyaan"
-        labelPertanyaan.Size = New Size(138, 22)
-        labelPertanyaan.TabIndex = 24
-        labelPertanyaan.Text = "Isi pertanyaan di sini"
         ' 
         ' Guna2Separator1
         ' 
@@ -315,11 +306,22 @@ Partial Class FormPertanyaanAkhir
         labelProgress.TabIndex = 20
         labelProgress.Text = "Pertanyaan ke-(x) dari (n) pertanyaan"
         ' 
+        ' labelPertanyaan
+        ' 
+        labelPertanyaan.AutoSize = False
+        labelPertanyaan.BackColor = Color.Transparent
+        labelPertanyaan.Location = New Point(19, 153)
+        labelPertanyaan.Name = "labelPertanyaan"
+        labelPertanyaan.Size = New Size(763, 64)
+        labelPertanyaan.TabIndex = 40
+        labelPertanyaan.Text = "Isi pertanyaan di sini"
+        ' 
         ' FormPertanyaanAkhir
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(labelPertanyaan)
         Controls.Add(Guna2HtmlLabel5)
         Controls.Add(Guna2HtmlLabel4)
         Controls.Add(Guna2HtmlLabel3)
@@ -335,7 +337,6 @@ Partial Class FormPertanyaanAkhir
         Controls.Add(radio3)
         Controls.Add(radio2)
         Controls.Add(radio1)
-        Controls.Add(labelPertanyaan)
         Controls.Add(Guna2Separator1)
         Controls.Add(labelTimer)
         Controls.Add(labelTitle)
@@ -363,10 +364,10 @@ Partial Class FormPertanyaanAkhir
     Friend WithEvents radio3 As Guna.UI2.WinForms.Guna2CustomRadioButton
     Friend WithEvents radio2 As Guna.UI2.WinForms.Guna2CustomRadioButton
     Friend WithEvents radio1 As Guna.UI2.WinForms.Guna2CustomRadioButton
-    Friend WithEvents labelPertanyaan As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2Separator1 As Guna.UI2.WinForms.Guna2Separator
     Friend WithEvents labelTimer As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents labelTitle As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents labelProgress As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents questionTimer As Timer
+    Friend WithEvents labelPertanyaan As Guna.UI2.WinForms.Guna2HtmlLabel
 End Class

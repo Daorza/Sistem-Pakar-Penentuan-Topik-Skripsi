@@ -1,30 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\",
+  "WorkspaceRootPath": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rzaa\\source\\repos\\pblai\\pblai\\formhasilawal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formhasilawal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\formadmindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formadmindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rzaa\\source\\repos\\pblai\\pblai\\formpertanyaanawal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formpertanyaanawal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\formadmindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formadmindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rzaa\\source\\repos\\pblai\\pblai\\formpertanyaanawal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formpertanyaanawal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\formaddedittopic.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formaddedittopic.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rzaa\\source\\repos\\pblai\\pblai\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\formmanagetopic.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formmanagetopic.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rzaa\\source\\repos\\pblai\\pblai\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\dal\\questionrepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\dal\\questionrepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rzaa\\source\\repos\\pblai\\pblai\\globaluser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\globaluser.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\formmanagequestions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formmanagequestions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rizki\\AppData\\Local\\Temp\\o3ttznat..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/SistemPakarSkripsi/True/SqlTable/dbo.users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rizki\\AppData\\Local\\Temp\\o3ttznat..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rizki\\AppData\\Local\\Temp\\o3ttznat..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,85 +46,113 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormHasilAwal.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\FormHasilAwal.vb",
-              "RelativeDocumentMoniker": "PBLAI\\FormHasilAwal.vb",
-              "ToolTip": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\FormHasilAwal.vb [Design]",
-              "RelativeToolTip": "PBLAI\\FormHasilAwal.vb [Design]",
+              "Title": "FormAdminDashboard.vb",
+              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAdminDashboard.vb",
+              "RelativeDocumentMoniker": "PBLAI\\FormAdminDashboard.vb",
+              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAdminDashboard.vb",
+              "RelativeToolTip": "PBLAI\\FormAdminDashboard.vb",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-04T16:45:50.985Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormPertanyaanAwal.vb",
-              "DocumentMoniker": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\FormPertanyaanAwal.vb",
-              "RelativeDocumentMoniker": "PBLAI\\FormPertanyaanAwal.vb",
-              "ToolTip": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\FormPertanyaanAwal.vb",
-              "RelativeToolTip": "PBLAI\\FormPertanyaanAwal.vb",
-              "ViewState": "AgIAAFkAAAAAAAAAAIAzwGgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-04T15:31:24.347Z",
+              "WhenOpened": "2025-12-09T16:18:52.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormPertanyaanAwal.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\FormPertanyaanAwal.vb",
-              "RelativeDocumentMoniker": "PBLAI\\FormPertanyaanAwal.vb",
-              "ToolTip": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\FormPertanyaanAwal.vb [Design]",
-              "RelativeToolTip": "PBLAI\\FormPertanyaanAwal.vb [Design]",
+              "Title": "FormAdminDashboard.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAdminDashboard.vb",
+              "RelativeDocumentMoniker": "PBLAI\\FormAdminDashboard.vb",
+              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAdminDashboard.vb [Design]",
+              "RelativeToolTip": "PBLAI\\FormAdminDashboard.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-01T02:28:35.973Z",
+              "WhenOpened": "2025-12-09T16:18:50.17Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GlobalUser.vb",
-              "DocumentMoniker": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\GlobalUser.vb",
-              "RelativeDocumentMoniker": "PBLAI\\GlobalUser.vb",
-              "ToolTip": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\GlobalUser.vb",
-              "RelativeToolTip": "PBLAI\\GlobalUser.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FormAddEditTopic.vb",
+              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAddEditTopic.vb",
+              "RelativeDocumentMoniker": "PBLAI\\FormAddEditTopic.vb",
+              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAddEditTopic.vb",
+              "RelativeToolTip": "PBLAI\\FormAddEditTopic.vb",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-01T02:18:18.539Z"
+              "WhenOpened": "2025-12-09T16:18:20.395Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\Form1.vb",
-              "RelativeDocumentMoniker": "PBLAI\\Form1.vb",
-              "ToolTip": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\Form1.vb",
-              "RelativeToolTip": "PBLAI\\Form1.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Title": "FormManageTopic.vb",
+              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormManageTopic.vb",
+              "RelativeDocumentMoniker": "PBLAI\\FormManageTopic.vb",
+              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormManageTopic.vb",
+              "RelativeToolTip": "PBLAI\\FormManageTopic.vb",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAuwGYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-01T00:34:40.773Z",
+              "WhenOpened": "2025-12-09T16:17:39.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Form1.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\Form1.vb",
-              "RelativeDocumentMoniker": "PBLAI\\Form1.vb",
-              "ToolTip": "C:\\Users\\Rzaa\\source\\repos\\PBLAI\\PBLAI\\Form1.vb [Design]",
-              "RelativeToolTip": "PBLAI\\Form1.vb [Design]",
+              "Title": "QuestionRepository.vb",
+              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\DAL\\QuestionRepository.vb",
+              "RelativeDocumentMoniker": "PBLAI\\DAL\\QuestionRepository.vb",
+              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\DAL\\QuestionRepository.vb",
+              "RelativeToolTip": "PBLAI\\DAL\\QuestionRepository.vb",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFUAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-01T00:26:01.643Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-09T16:15:51.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormManageQuestions.vb",
+              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormManageQuestions.vb",
+              "RelativeDocumentMoniker": "PBLAI\\FormManageQuestions.vb",
+              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormManageQuestions.vb",
+              "RelativeToolTip": "PBLAI\\FormManageQuestions.vb",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAwwIQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-12-09T16:07:46.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SQLQuery11.sql ",
+              "DocumentMoniker": "C:\\Users\\Rizki\\AppData\\Local\\Temp\\o3ttznat..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\o3ttznat..sql",
+              "ToolTip": "SQLQuery11.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-09T16:07:30.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/SistemPakarSkripsi/True/SqlTable/dbo.users.sql",
+              "ToolTip": "dbo.users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-09T16:07:00.128Z",
+              "EditorCaption": ""
             }
           ]
         }

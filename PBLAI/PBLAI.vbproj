@@ -9,6 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="BBL\**" />
+    <EmbeddedResource Remove="BBL\**" />
+    <None Remove="BBL\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Import Include="System.Data" />
     <Import Include="System.Drawing" />
     <Import Include="System.Windows.Forms" />
@@ -20,6 +26,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="FormAddEditTopic.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="My Project\Application.Designer.vb">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -45,6 +54,12 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="My Project\NewFolder\" />
+    <Folder Include="DAL\" />
   </ItemGroup>
 
 </Project>

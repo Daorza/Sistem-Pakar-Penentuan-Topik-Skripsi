@@ -94,3 +94,10 @@ C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug
 C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug\net8.0-windows\PBLAI.pdb
 C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug\net8.0-windows\PBLAI.genruntimeconfig.cache
 C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug\net8.0-windows\ref\PBLAI.dll
+C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\bin\Debug\net8.0-windows\PBLAI.dll.config
+C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug\net8.0-windows\PBLAI.FormAddEditQuestion.resources
+C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug\net8.0-windows\PBLAI.FormAdminDashboard.resources
+C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug\net8.0-windows\PBLAI.FormLogin.resources
+C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug\net8.0-windows\PBLAI.FormManageQuestions.resources
+C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug\net8.0-windows\PBLAI.FormAddEditTopic.resources
+C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug\net8.0-windows\PBLAI.FormManageTopics.resources
