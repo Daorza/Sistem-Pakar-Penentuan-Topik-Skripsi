@@ -27,6 +27,8 @@ Partial Class FormHasilAkhir
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         labelTopic3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         labelTopic2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         nextButton = New Guna.UI2.WinForms.Guna2Button()
@@ -45,6 +47,7 @@ Partial Class FormHasilAkhir
         labelSubTopik3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         labelSubTopik2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         labelSubTopik = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        print = New Guna.UI2.WinForms.Guna2Button()
         SuspendLayout()
         ' 
         ' labelTopic3
@@ -228,11 +231,29 @@ Partial Class FormHasilAkhir
         labelSubTopik.TabIndex = 26
         labelSubTopik.Text = "Label SubTopik"
         ' 
+        ' print
+        ' 
+        print.BorderRadius = 8
+        print.CustomizableEdges = CustomizableEdges5
+        print.DisabledState.BorderColor = Color.DarkGray
+        print.DisabledState.CustomBorderColor = Color.DarkGray
+        print.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        print.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        print.Font = New Font("Segoe UI", 9F)
+        print.ForeColor = Color.White
+        print.Location = New Point(628, 383)
+        print.Name = "print"
+        print.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        print.Size = New Size(145, 39)
+        print.TabIndex = 29
+        print.Text = "PrintResult"
+        ' 
         ' FormHasilAkhir
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(print)
         Controls.Add(labelSubTopik3)
         Controls.Add(labelSubTopik2)
         Controls.Add(labelSubTopik)
@@ -274,4 +295,5 @@ Partial Class FormHasilAkhir
     Friend WithEvents labelSubTopik2 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents labelSubTopik As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents questionTimer As Timer
+    Friend WithEvents print As Guna.UI2.WinForms.Guna2Button
 End Class

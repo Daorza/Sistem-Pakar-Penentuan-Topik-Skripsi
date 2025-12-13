@@ -43,6 +43,7 @@ Partial Class Form1
         txtNIM = New Guna.UI2.WinForms.Guna2TextBox()
         txtNama = New Guna.UI2.WinForms.Guna2TextBox()
         lblTitle = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        AdminLogin = New Button()
         panelCard.SuspendLayout()
         SuspendLayout()
         ' 
@@ -176,11 +177,21 @@ Partial Class Form1
         lblTitle.TabIndex = 0
         lblTitle.Text = "Sistem Pakar Guna Menentukan Topik Skripsi Jurusan TIK PNJ"
         ' 
+        ' AdminLogin
+        ' 
+        AdminLogin.Location = New Point(12, 448)
+        AdminLogin.Name = "AdminLogin"
+        AdminLogin.Size = New Size(113, 29)
+        AdminLogin.TabIndex = 6
+        AdminLogin.Text = "AdminLogin"
+        AdminLogin.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(800, 489)
+        Controls.Add(AdminLogin)
         Controls.Add(panelCard)
         FormBorderStyle = FormBorderStyle.None
         Name = "Form1"
@@ -198,5 +209,6 @@ Partial Class Form1
     Friend WithEvents txtNama As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents buttonMulai As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents AdminLogin As Button
 
 End Class

@@ -96,6 +96,39 @@ Public Class SubtopicRepository
     End Function
 
     ''' <summary>
+    ''' Update existing subtopic
+    ''' </summary>
+    Public Shared Function Update(id As Integer, topicId As Integer, kode As String, nama As String) As Integer
+        Try
+            Dim query As String = "UPDATE subtopics SET topic_id = @topicId, kode = @kode, nama = @nama, updated_at = GETDATE() WHERE id = @id"
+            Dim params As New Dictionary(Of String, Object) From {
+                {"@id", id},
+                {"@topicId", topicId},
+                {"@kode", kode},
+                {"@nama", nama}
+            }
+
+            Return DatabaseHelper.ExecuteNonQuery(query, params)
+        Catch ex As Exception
+            Throw New Exception("Error updating subtopic: " & ex.Message, ex)
+        End Try
+    End Function
+
+    ''' <summary>
+    ''' Delete subtopic (soft delete)
+    ''' </summary>
+    Public Shared Function Delete(id As Integer) As Integer
+        Try
+            Dim query As String = "UPDATE subtopics SET is_active = 0 WHERE id = @id"
+            Dim params As New Dictionary(Of String, Object) From {{"@id", id}}
+
+            Return DatabaseHelper.ExecuteNonQuery(query, params)
+        Catch ex As Exception
+            Throw New Exception("Error deleting subtopic: " & ex.Message, ex)
+        End Try
+    End Function
+
+    ''' <summary>
     ''' Map DataRow to Subtopic object
     ''' </summary>
     Private Shared Function MapToSubtopic(row As DataRow) As Subtopic

@@ -13,24 +13,12 @@ Public Class Form1
 
         ' Setup ComboBox
         InitializeProdiComboBox()
-        ' Setup Admin Link
-        Dim linkAdmin As New LinkLabel()
-        linkAdmin.Text = "Admin Login"
-        linkAdmin.AutoSize = True
-        linkAdmin.Location = New Point(10, Me.ClientSize.Height - 30)
-        linkAdmin.Anchor = AnchorStyles.Bottom Or AnchorStyles.Left
-        Me.Controls.Add(linkAdmin)
-        AddHandler linkAdmin.LinkClicked, AddressOf LinkAdmin_Clicked
 
         ' Test database connection
         If Not DatabaseHelper.TestConnection() Then
             MessageBox.Show("Koneksi database gagal! Periksa connection string.", "Error",
                           MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
-    End Sub
-    Private Sub LinkAdmin_Clicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
-        Dim frmLogin As New FormLogin()
-        frmLogin.ShowDialog()
     End Sub
 
     ''' <summary>
@@ -142,4 +130,9 @@ Public Class Form1
 
         Return True
     End Function
+
+    Private Sub AdminLogin_Click(sender As Object, e As EventArgs) Handles AdminLogin.Click
+        Dim frmLogin As New FormLogin()
+        frmLogin.ShowDialog()
+    End Sub
 End Class

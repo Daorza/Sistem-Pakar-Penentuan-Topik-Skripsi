@@ -33,7 +33,7 @@ Public Class FormHasilAwal
     End Sub
 
     ''' <summary>
-    ''' Display Level 1 results (Top 3 topics + metode + rekomendasi)
+    ''' Display Level 1 results (Top 3 topics with >= 50% score)
     ''' </summary>
     Private Sub TampilkanHasilLevel1()
         Try
@@ -48,29 +48,46 @@ Public Class FormHasilAwal
                 Return
             End If
 
-            ' Display top 3 topics
+            ' Reset labels first (hide them by default)
+            labelTopic.Text = ""
+            labelTopic2.Text = ""
+            labelTopic3.Text = ""
+
+            ' Loop through rankings and display only those >= 50%
+            Dim displayIndex As Integer = 0
+
             For i As Integer = 0 To Math.Min(2, topicRankings.Count - 1)
                 Dim ranking = topicRankings(i)
-                Dim displayText As String = $"{ranking.Ranking}. {ranking.NamaTopic} - {ranking.Persentase}%"
 
-                Select Case i
-                    Case 0
-                        labelTopic.Text = displayText
-                    Case 1
-                        labelTopic2.Text = displayText
-                    Case 2
-                        labelTopic3.Text = displayText
-                End Select
+                ' LOGIC FILTER: Only show if score is >= 50%
+                If ranking.Persentase >= 50 Then
+                    Dim displayText As String = $"{ranking.Ranking}. {ranking.NamaTopic} - {ranking.Persentase}%"
+
+                    Select Case displayIndex
+                        Case 0
+                            labelTopic.Text = displayText
+                        Case 1
+                            labelTopic2.Text = displayText
+                        Case 2
+                            labelTopic3.Text = displayText
+                    End Select
+
+                    displayIndex += 1
+                End If
             Next
 
-            ' Get metode & rekomendasi
+            ' If no topics qualified (all below 50%)
+            If displayIndex = 0 Then
+                labelTopic.Text = "Tidak ada topik yang cukup cocok (<50%)."
+                labelTopic.ForeColor = Color.Red
+            End If
+
+            ' Get metode & rekomendasi (tetap ditampilkan seperti biasa)
             Dim result = ResultRepository.GetLatestResult(userId)
 
             If result IsNot Nothing Then
-                ' Display metode
                 labelMetode.Text = result.Metode
 
-                ' Display rekomendasi with formatting
                 If result.Rekomendasi.ToUpper() = "MEMBUAT" Then
                     labelRekomendasi.Text = "Membuat Aplikasi"
                 ElseIf result.Rekomendasi.ToUpper() = "ANALISIS" Then
@@ -78,9 +95,6 @@ Public Class FormHasilAwal
                 Else
                     labelRekomendasi.Text = result.Rekomendasi
                 End If
-            Else
-                MessageBox.Show("Hasil metode dan rekomendasi tidak ditemukan.",
-                              "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             End If
 
         Catch ex As Exception

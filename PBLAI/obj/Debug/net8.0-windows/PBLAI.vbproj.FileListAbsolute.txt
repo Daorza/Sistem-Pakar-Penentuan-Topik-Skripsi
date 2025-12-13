@@ -101,3 +101,5 @@ C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug
 C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug\net8.0-windows\PBLAI.FormManageQuestions.resources
 C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug\net8.0-windows\PBLAI.FormAddEditTopic.resources
 C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug\net8.0-windows\PBLAI.FormManageTopics.resources
+C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug\net8.0-windows\PBLAI.FormAddEditSubtopic.resources
+C:\Users\Rizki\source\repos\Sistem-Pakar-Penentuan-Topik-Skripsi\PBLAI\obj\Debug\net8.0-windows\PBLAI.FormManageSubtopics.resources

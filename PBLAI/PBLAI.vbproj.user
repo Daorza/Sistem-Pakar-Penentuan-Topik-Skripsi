@@ -7,6 +7,9 @@
     <Compile Update="FormAddEditQuestion.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormAddEditSubtopic.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormAdminDashboard.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -20,6 +23,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormManageQuestions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormManageSubtopics.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormManageTopic.vb">
