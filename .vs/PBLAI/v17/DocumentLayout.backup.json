@@ -1,56 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\formadmindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formadmindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\formadmindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formadmindashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\formmanagesubtopics.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formmanagesubtopics.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\formmanagesubtopics.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formmanagesubtopics.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\formmanagetopic.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formmanagetopic.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\formmanagequestions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formmanagequestions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\formaddeditsubtopic.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formaddeditsubtopic.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\dal\\subtopicrepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\dal\\subtopicrepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\dal\\topicrepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\dal\\topicrepository.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\models\\subtopic.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\models\\subtopic.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\formaddeditquestion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formaddeditquestion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|c:\\users\\rizki\\source\\repos\\sistem-pakar-penentuan-topik-skripsi\\pblai\\formadmindashboard.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1493CF90-B017-4F17-BA41-5E1B2F99BF27}|PBLAI\\PBLAI.vbproj|solutionrelative:pblai\\formadmindashboard.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -58,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,156 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormManageSubtopics.vb",
-              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormManageSubtopics.vb",
-              "RelativeDocumentMoniker": "PBLAI\\FormManageSubtopics.vb",
-              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormManageSubtopics.vb",
-              "RelativeToolTip": "PBLAI\\FormManageSubtopics.vb",
-              "ViewState": "AgIAAC0AAAAAAAAAAAA6wEwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-13T15:50:25.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormManageTopic.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormManageTopic.vb",
-              "RelativeDocumentMoniker": "PBLAI\\FormManageTopic.vb",
-              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormManageTopic.vb [Design]",
-              "RelativeToolTip": "PBLAI\\FormManageTopic.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-13T15:49:49.337Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormManageSubtopics.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormManageSubtopics.vb",
-              "RelativeDocumentMoniker": "PBLAI\\FormManageSubtopics.vb",
-              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormManageSubtopics.vb [Design]",
-              "RelativeToolTip": "PBLAI\\FormManageSubtopics.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-13T15:49:34.359Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormAdminDashboard.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAdminDashboard.vb",
-              "RelativeDocumentMoniker": "PBLAI\\FormAdminDashboard.vb",
-              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAdminDashboard.vb [Design]*",
-              "RelativeToolTip": "PBLAI\\FormAdminDashboard.vb [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-13T15:36:03.936Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormAdminDashboard.vb",
-              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAdminDashboard.vb",
-              "RelativeDocumentMoniker": "PBLAI\\FormAdminDashboard.vb",
-              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAdminDashboard.vb*",
-              "RelativeToolTip": "PBLAI\\FormAdminDashboard.vb*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAkwBwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-13T15:36:14.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormManageQuestions.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormManageQuestions.vb",
-              "RelativeDocumentMoniker": "PBLAI\\FormManageQuestions.vb",
-              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormManageQuestions.vb [Design]",
-              "RelativeToolTip": "PBLAI\\FormManageQuestions.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-13T15:49:41.57Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormAddEditSubtopic.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAddEditSubtopic.vb",
-              "RelativeDocumentMoniker": "PBLAI\\FormAddEditSubtopic.vb",
-              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAddEditSubtopic.vb [Design]",
-              "RelativeToolTip": "PBLAI\\FormAddEditSubtopic.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-13T15:46:41.409Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TopicRepository.vb",
-              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\DAL\\TopicRepository.vb",
-              "RelativeDocumentMoniker": "PBLAI\\DAL\\TopicRepository.vb",
-              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\DAL\\TopicRepository.vb",
-              "RelativeToolTip": "PBLAI\\DAL\\TopicRepository.vb",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAcwGwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-13T15:41:09.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SubtopicRepository.vb",
-              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\DAL\\SubtopicRepository.vb",
-              "RelativeDocumentMoniker": "PBLAI\\DAL\\SubtopicRepository.vb",
-              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\DAL\\SubtopicRepository.vb",
-              "RelativeToolTip": "PBLAI\\DAL\\SubtopicRepository.vb",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAmwHIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-13T15:41:01.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Subtopic.vb",
-              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\Models\\Subtopic.vb",
-              "RelativeDocumentMoniker": "PBLAI\\Models\\Subtopic.vb",
-              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\Models\\Subtopic.vb",
-              "RelativeToolTip": "PBLAI\\Models\\Subtopic.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-13T15:40:53.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FormAddEditQuestion.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAddEditQuestion.vb",
-              "RelativeDocumentMoniker": "PBLAI\\FormAddEditQuestion.vb",
-              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAddEditQuestion.vb [Design]",
-              "RelativeToolTip": "PBLAI\\FormAddEditQuestion.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-13T15:40:46.11Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FormAdminDashboard.Designer.vb",
-              "DocumentMoniker": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAdminDashboard.Designer.vb",
-              "RelativeDocumentMoniker": "PBLAI\\FormAdminDashboard.Designer.vb",
-              "ToolTip": "C:\\Users\\Rizki\\source\\repos\\Sistem-Pakar-Penentuan-Topik-Skripsi\\PBLAI\\FormAdminDashboard.Designer.vb*",
-              "RelativeToolTip": "PBLAI\\FormAdminDashboard.Designer.vb*",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAgwIQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-12-13T15:39:05.419Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -116,7 +116,7 @@ Partial Class FormPertanyaanAwal
         radio1.CheckedState.BorderThickness = 0
         radio1.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         radio1.CheckedState.InnerColor = Color.White
-        radio1.Location = New Point(90, 239)
+        radio1.Location = New Point(90, 235)
         radio1.Name = "radio1"
         radio1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         radio1.Size = New Size(25, 25)
@@ -133,7 +133,7 @@ Partial Class FormPertanyaanAwal
         radio2.CheckedState.BorderThickness = 0
         radio2.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         radio2.CheckedState.InnerColor = Color.White
-        radio2.Location = New Point(238, 239)
+        radio2.Location = New Point(238, 235)
         radio2.Name = "radio2"
         radio2.ShadowDecoration.CustomizableEdges = CustomizableEdges11
         radio2.Size = New Size(25, 25)
@@ -150,7 +150,7 @@ Partial Class FormPertanyaanAwal
         radio3.CheckedState.BorderThickness = 0
         radio3.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         radio3.CheckedState.InnerColor = Color.White
-        radio3.Location = New Point(364, 239)
+        radio3.Location = New Point(364, 235)
         radio3.Name = "radio3"
         radio3.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         radio3.Size = New Size(25, 25)
@@ -167,7 +167,7 @@ Partial Class FormPertanyaanAwal
         radio4.CheckedState.BorderThickness = 0
         radio4.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         radio4.CheckedState.InnerColor = Color.White
-        radio4.Location = New Point(487, 239)
+        radio4.Location = New Point(487, 235)
         radio4.Name = "radio4"
         radio4.ShadowDecoration.CustomizableEdges = CustomizableEdges9
         radio4.Size = New Size(25, 25)
@@ -184,7 +184,7 @@ Partial Class FormPertanyaanAwal
         radio5.CheckedState.BorderThickness = 0
         radio5.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         radio5.CheckedState.InnerColor = Color.White
-        radio5.Location = New Point(603, 239)
+        radio5.Location = New Point(603, 235)
         radio5.Name = "radio5"
         radio5.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         radio5.Size = New Size(25, 25)
@@ -201,7 +201,7 @@ Partial Class FormPertanyaanAwal
         radio6.CheckedState.BorderThickness = 0
         radio6.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         radio6.CheckedState.InnerColor = Color.White
-        radio6.Location = New Point(709, 239)
+        radio6.Location = New Point(709, 235)
         radio6.Name = "radio6"
         radio6.ShadowDecoration.CustomizableEdges = CustomizableEdges7
         radio6.Size = New Size(25, 25)
@@ -220,6 +220,7 @@ Partial Class FormPertanyaanAwal
         buttonKembali.DisabledState.CustomBorderColor = Color.DarkGray
         buttonKembali.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         buttonKembali.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        buttonKembali.FillColor = Color.Coral
         buttonKembali.Font = New Font("Segoe UI", 9F)
         buttonKembali.ForeColor = Color.White
         buttonKembali.Location = New Point(38, 369)
@@ -237,6 +238,7 @@ Partial Class FormPertanyaanAwal
         buttonSelanjutnya.DisabledState.CustomBorderColor = Color.DarkGray
         buttonSelanjutnya.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         buttonSelanjutnya.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        buttonSelanjutnya.FillColor = Color.Teal
         buttonSelanjutnya.Font = New Font("Segoe UI", 9F)
         buttonSelanjutnya.ForeColor = Color.White
         buttonSelanjutnya.Location = New Point(550, 360)
@@ -253,9 +255,11 @@ Partial Class FormPertanyaanAwal
         ' progressBar
         ' 
         progressBar.CustomizableEdges = CustomizableEdges1
-        progressBar.FillColor = Color.CornflowerBlue
+        progressBar.FillColor = Color.LightBlue
         progressBar.Location = New Point(25, 94)
         progressBar.Name = "progressBar"
+        progressBar.ProgressColor = Color.Teal
+        progressBar.ProgressColor2 = Color.FromArgb(CByte(0), CByte(192), CByte(192))
         progressBar.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         progressBar.Size = New Size(763, 18)
         progressBar.TabIndex = 13
@@ -265,7 +269,7 @@ Partial Class FormPertanyaanAwal
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(38, 296)
+        Label1.Location = New Point(38, 292)
         Label1.Name = "Label1"
         Label1.Size = New Size(140, 20)
         Label1.TabIndex = 14
@@ -274,7 +278,7 @@ Partial Class FormPertanyaanAwal
         ' Guna2HtmlLabel1
         ' 
         Guna2HtmlLabel1.BackColor = Color.Transparent
-        Guna2HtmlLabel1.Location = New Point(210, 294)
+        Guna2HtmlLabel1.Location = New Point(210, 290)
         Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
         Guna2HtmlLabel1.Size = New Size(84, 22)
         Guna2HtmlLabel1.TabIndex = 15
@@ -283,7 +287,7 @@ Partial Class FormPertanyaanAwal
         ' Guna2HtmlLabel2
         ' 
         Guna2HtmlLabel2.BackColor = Color.Transparent
-        Guna2HtmlLabel2.Location = New Point(333, 294)
+        Guna2HtmlLabel2.Location = New Point(333, 290)
         Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
         Guna2HtmlLabel2.Size = New Size(95, 22)
         Guna2HtmlLabel2.TabIndex = 16
@@ -292,7 +296,7 @@ Partial Class FormPertanyaanAwal
         ' Guna2HtmlLabel3
         ' 
         Guna2HtmlLabel3.BackColor = Color.Transparent
-        Guna2HtmlLabel3.Location = New Point(478, 294)
+        Guna2HtmlLabel3.Location = New Point(478, 290)
         Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
         Guna2HtmlLabel3.Size = New Size(44, 22)
         Guna2HtmlLabel3.TabIndex = 17
@@ -301,7 +305,7 @@ Partial Class FormPertanyaanAwal
         ' Guna2HtmlLabel4
         ' 
         Guna2HtmlLabel4.BackColor = Color.Transparent
-        Guna2HtmlLabel4.Location = New Point(573, 296)
+        Guna2HtmlLabel4.Location = New Point(573, 292)
         Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
         Guna2HtmlLabel4.Size = New Size(89, 22)
         Guna2HtmlLabel4.TabIndex = 18
@@ -310,7 +314,7 @@ Partial Class FormPertanyaanAwal
         ' Guna2HtmlLabel5
         ' 
         Guna2HtmlLabel5.BackColor = Color.Transparent
-        Guna2HtmlLabel5.Location = New Point(681, 294)
+        Guna2HtmlLabel5.Location = New Point(681, 290)
         Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
         Guna2HtmlLabel5.Size = New Size(94, 22)
         Guna2HtmlLabel5.TabIndex = 19

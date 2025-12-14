@@ -61,6 +61,7 @@ Partial Class FormAddEditQuestion
         ' 
         ' txtPertanyaan
         ' 
+        txtPertanyaan.BorderRadius = 8
         txtPertanyaan.CustomizableEdges = CustomizableEdges1
         txtPertanyaan.DefaultText = ""
         txtPertanyaan.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -75,6 +76,7 @@ Partial Class FormAddEditQuestion
         txtPertanyaan.Name = "txtPertanyaan"
         txtPertanyaan.PlaceholderText = ""
         txtPertanyaan.SelectedText = ""
+        txtPertanyaan.ShadowDecoration.BorderRadius = 8
         txtPertanyaan.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         txtPertanyaan.Size = New Size(286, 60)
         txtPertanyaan.TabIndex = 0
@@ -82,6 +84,7 @@ Partial Class FormAddEditQuestion
         ' cboLevel
         ' 
         cboLevel.BackColor = Color.Transparent
+        cboLevel.BorderRadius = 8
         cboLevel.CustomizableEdges = CustomizableEdges3
         cboLevel.DrawMode = DrawMode.OwnerDrawFixed
         cboLevel.DropDownStyle = ComboBoxStyle.DropDownList
@@ -93,6 +96,7 @@ Partial Class FormAddEditQuestion
         cboLevel.Items.AddRange(New Object() {"1", "2"})
         cboLevel.Location = New Point(87, 156)
         cboLevel.Name = "cboLevel"
+        cboLevel.ShadowDecoration.BorderRadius = 8
         cboLevel.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         cboLevel.Size = New Size(175, 36)
         cboLevel.TabIndex = 1
@@ -100,6 +104,7 @@ Partial Class FormAddEditQuestion
         ' cboKategori
         ' 
         cboKategori.BackColor = Color.Transparent
+        cboKategori.BorderRadius = 8
         cboKategori.CustomizableEdges = CustomizableEdges5
         cboKategori.DrawMode = DrawMode.OwnerDrawFixed
         cboKategori.DropDownStyle = ComboBoxStyle.DropDownList
@@ -111,6 +116,7 @@ Partial Class FormAddEditQuestion
         cboKategori.Items.AddRange(New Object() {"TOPIK", "SUBTOPIK", "METODE", "REKOMENDASI"})
         cboKategori.Location = New Point(87, 220)
         cboKategori.Name = "cboKategori"
+        cboKategori.ShadowDecoration.BorderRadius = 8
         cboKategori.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         cboKategori.Size = New Size(175, 36)
         cboKategori.TabIndex = 2
@@ -118,6 +124,7 @@ Partial Class FormAddEditQuestion
         ' cboTargetTopic
         ' 
         cboTargetTopic.BackColor = Color.Transparent
+        cboTargetTopic.BorderRadius = 8
         cboTargetTopic.CustomizableEdges = CustomizableEdges7
         cboTargetTopic.DrawMode = DrawMode.OwnerDrawFixed
         cboTargetTopic.DropDownStyle = ComboBoxStyle.DropDownList
@@ -128,6 +135,7 @@ Partial Class FormAddEditQuestion
         cboTargetTopic.ItemHeight = 30
         cboTargetTopic.Location = New Point(354, 156)
         cboTargetTopic.Name = "cboTargetTopic"
+        cboTargetTopic.ShadowDecoration.BorderRadius = 8
         cboTargetTopic.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         cboTargetTopic.Size = New Size(175, 36)
         cboTargetTopic.TabIndex = 4
@@ -135,6 +143,7 @@ Partial Class FormAddEditQuestion
         ' cboTargetSubtopic
         ' 
         cboTargetSubtopic.BackColor = Color.Transparent
+        cboTargetSubtopic.BorderRadius = 8
         cboTargetSubtopic.CustomizableEdges = CustomizableEdges9
         cboTargetSubtopic.DrawMode = DrawMode.OwnerDrawFixed
         cboTargetSubtopic.DropDownStyle = ComboBoxStyle.DropDownList
@@ -145,6 +154,7 @@ Partial Class FormAddEditQuestion
         cboTargetSubtopic.ItemHeight = 30
         cboTargetSubtopic.Location = New Point(354, 220)
         cboTargetSubtopic.Name = "cboTargetSubtopic"
+        cboTargetSubtopic.ShadowDecoration.BorderRadius = 8
         cboTargetSubtopic.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         cboTargetSubtopic.Size = New Size(175, 36)
         cboTargetSubtopic.TabIndex = 5
@@ -152,6 +162,7 @@ Partial Class FormAddEditQuestion
         ' cboTargetMetode
         ' 
         cboTargetMetode.BackColor = Color.Transparent
+        cboTargetMetode.BorderRadius = 8
         cboTargetMetode.CustomizableEdges = CustomizableEdges11
         cboTargetMetode.DrawMode = DrawMode.OwnerDrawFixed
         cboTargetMetode.DropDownStyle = ComboBoxStyle.DropDownList
@@ -163,6 +174,7 @@ Partial Class FormAddEditQuestion
         cboTargetMetode.Items.AddRange(New Object() {"KUALITATIF", "KUANTITATIF"})
         cboTargetMetode.Location = New Point(586, 156)
         cboTargetMetode.Name = "cboTargetMetode"
+        cboTargetMetode.ShadowDecoration.BorderRadius = 8
         cboTargetMetode.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         cboTargetMetode.Size = New Size(175, 36)
         cboTargetMetode.TabIndex = 6
@@ -170,6 +182,7 @@ Partial Class FormAddEditQuestion
         ' cboTargetRekomendasi
         ' 
         cboTargetRekomendasi.BackColor = Color.Transparent
+        cboTargetRekomendasi.BorderRadius = 8
         cboTargetRekomendasi.CustomizableEdges = CustomizableEdges13
         cboTargetRekomendasi.DrawMode = DrawMode.OwnerDrawFixed
         cboTargetRekomendasi.DropDownStyle = ComboBoxStyle.DropDownList
@@ -181,12 +194,14 @@ Partial Class FormAddEditQuestion
         cboTargetRekomendasi.Items.AddRange(New Object() {"MEMBUAT", "ANALISIS"})
         cboTargetRekomendasi.Location = New Point(586, 220)
         cboTargetRekomendasi.Name = "cboTargetRekomendasi"
+        cboTargetRekomendasi.ShadowDecoration.BorderRadius = 8
         cboTargetRekomendasi.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         cboTargetRekomendasi.Size = New Size(175, 36)
         cboTargetRekomendasi.TabIndex = 7
         ' 
         ' txtCFPakar
         ' 
+        txtCFPakar.BorderRadius = 8
         txtCFPakar.CustomizableEdges = CustomizableEdges15
         txtCFPakar.DefaultText = ""
         txtCFPakar.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -201,17 +216,20 @@ Partial Class FormAddEditQuestion
         txtCFPakar.Name = "txtCFPakar"
         txtCFPakar.PlaceholderText = ""
         txtCFPakar.SelectedText = ""
+        txtCFPakar.ShadowDecoration.BorderRadius = 8
         txtCFPakar.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         txtCFPakar.Size = New Size(286, 60)
         txtCFPakar.TabIndex = 8
         ' 
         ' btnSave
         ' 
+        btnSave.BorderRadius = 8
         btnSave.CustomizableEdges = CustomizableEdges17
         btnSave.DisabledState.BorderColor = Color.DarkGray
         btnSave.DisabledState.CustomBorderColor = Color.DarkGray
         btnSave.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnSave.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnSave.FillColor = Color.Teal
         btnSave.Font = New Font("Segoe UI", 9F)
         btnSave.ForeColor = Color.White
         btnSave.Location = New Point(417, 300)
@@ -223,6 +241,7 @@ Partial Class FormAddEditQuestion
         ' 
         ' btnCancel
         ' 
+        btnCancel.BorderRadius = 8
         btnCancel.CustomizableEdges = CustomizableEdges19
         btnCancel.DisabledState.BorderColor = Color.DarkGray
         btnCancel.DisabledState.CustomBorderColor = Color.DarkGray
