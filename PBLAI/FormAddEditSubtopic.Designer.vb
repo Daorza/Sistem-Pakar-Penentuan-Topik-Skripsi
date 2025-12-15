@@ -22,16 +22,16 @@ Partial Class FormAddEditSubtopic
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         title = New Guna.UI2.WinForms.Guna2HtmlLabel()
         cboTopic = New Guna.UI2.WinForms.Guna2ComboBox()
         subtopik = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -45,7 +45,7 @@ Partial Class FormAddEditSubtopic
         ' title
         ' 
         title.BackColor = Color.Transparent
-        title.Location = New Point(111, 68)
+        title.Location = New Point(54, 31)
         title.Name = "title"
         title.Size = New Size(83, 22)
         title.TabIndex = 0
@@ -54,7 +54,8 @@ Partial Class FormAddEditSubtopic
         ' cboTopic
         ' 
         cboTopic.BackColor = Color.Transparent
-        cboTopic.CustomizableEdges = CustomizableEdges11
+        cboTopic.BorderRadius = 8
+        cboTopic.CustomizableEdges = CustomizableEdges1
         cboTopic.DrawMode = DrawMode.OwnerDrawFixed
         cboTopic.DropDownStyle = ComboBoxStyle.DropDownList
         cboTopic.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -62,16 +63,16 @@ Partial Class FormAddEditSubtopic
         cboTopic.Font = New Font("Segoe UI", 10F)
         cboTopic.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         cboTopic.ItemHeight = 30
-        cboTopic.Location = New Point(111, 119)
+        cboTopic.Location = New Point(54, 59)
         cboTopic.Name = "cboTopic"
-        cboTopic.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        cboTopic.Size = New Size(175, 36)
+        cboTopic.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        cboTopic.Size = New Size(668, 36)
         cboTopic.TabIndex = 1
         ' 
         ' subtopik
         ' 
         subtopik.BackColor = Color.Transparent
-        subtopik.Location = New Point(111, 194)
+        subtopik.Location = New Point(54, 136)
         subtopik.Name = "subtopik"
         subtopik.Size = New Size(104, 22)
         subtopik.TabIndex = 2
@@ -79,7 +80,8 @@ Partial Class FormAddEditSubtopic
         ' 
         ' txtKode
         ' 
-        txtKode.CustomizableEdges = CustomizableEdges13
+        txtKode.BorderRadius = 8
+        txtKode.CustomizableEdges = CustomizableEdges3
         txtKode.DefaultText = ""
         txtKode.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtKode.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -88,18 +90,19 @@ Partial Class FormAddEditSubtopic
         txtKode.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtKode.Font = New Font("Segoe UI", 9F)
         txtKode.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtKode.Location = New Point(111, 236)
+        txtKode.Location = New Point(54, 165)
         txtKode.Margin = New Padding(3, 4, 3, 4)
         txtKode.Name = "txtKode"
         txtKode.PlaceholderText = ""
         txtKode.SelectedText = ""
-        txtKode.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        txtKode.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         txtKode.Size = New Size(286, 60)
         txtKode.TabIndex = 3
         ' 
         ' txtNama
         ' 
-        txtNama.CustomizableEdges = CustomizableEdges15
+        txtNama.BorderRadius = 8
+        txtNama.CustomizableEdges = CustomizableEdges5
         txtNama.DefaultText = ""
         txtNama.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtNama.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -108,19 +111,19 @@ Partial Class FormAddEditSubtopic
         txtNama.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtNama.Font = New Font("Segoe UI", 9F)
         txtNama.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtNama.Location = New Point(111, 357)
+        txtNama.Location = New Point(436, 165)
         txtNama.Margin = New Padding(3, 4, 3, 4)
         txtNama.Name = "txtNama"
         txtNama.PlaceholderText = ""
         txtNama.SelectedText = ""
-        txtNama.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        txtNama.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         txtNama.Size = New Size(286, 60)
         txtNama.TabIndex = 5
         ' 
         ' namasubtopik
         ' 
         namasubtopik.BackColor = Color.Transparent
-        namasubtopik.Location = New Point(111, 315)
+        namasubtopik.Location = New Point(436, 136)
         namasubtopik.Name = "namasubtopik"
         namasubtopik.Size = New Size(109, 22)
         namasubtopik.TabIndex = 4
@@ -128,35 +131,39 @@ Partial Class FormAddEditSubtopic
         ' 
         ' btnSave
         ' 
-        btnSave.CustomizableEdges = CustomizableEdges17
+        btnSave.BorderRadius = 8
+        btnSave.CustomizableEdges = CustomizableEdges7
         btnSave.DisabledState.BorderColor = Color.DarkGray
         btnSave.DisabledState.CustomBorderColor = Color.DarkGray
         btnSave.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnSave.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnSave.FillColor = Color.Teal
         btnSave.Font = New Font("Segoe UI", 9F)
         btnSave.ForeColor = Color.White
-        btnSave.Location = New Point(528, 128)
+        btnSave.Location = New Point(497, 350)
         btnSave.Name = "btnSave"
-        btnSave.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        btnSave.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         btnSave.Size = New Size(225, 56)
         btnSave.TabIndex = 6
         btnSave.Text = "Simpan"
         ' 
         ' btnCancel
         ' 
-        btnCancel.CustomizableEdges = CustomizableEdges19
+        btnCancel.BorderRadius = 8
+        btnCancel.CustomizableEdges = CustomizableEdges9
         btnCancel.DisabledState.BorderColor = Color.DarkGray
         btnCancel.DisabledState.CustomBorderColor = Color.DarkGray
         btnCancel.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnCancel.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnCancel.FillColor = Color.Coral
         btnCancel.Font = New Font("Segoe UI", 9F)
         btnCancel.ForeColor = Color.White
-        btnCancel.Location = New Point(528, 212)
+        btnCancel.Location = New Point(54, 350)
         btnCancel.Name = "btnCancel"
-        btnCancel.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        btnCancel.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         btnCancel.Size = New Size(225, 56)
         btnCancel.TabIndex = 7
-        btnCancel.Text = "Cancel"
+        btnCancel.Text = "Batal"
         ' 
         ' FormAddEditSubtopic
         ' 

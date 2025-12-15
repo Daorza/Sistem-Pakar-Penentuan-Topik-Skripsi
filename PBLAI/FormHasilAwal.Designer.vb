@@ -42,6 +42,12 @@ Partial Class FormHasilAwal
         questionTimer = New Timer(components)
         labelTopic2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         labelTopic3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Guna2ShadowPanel1 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Guna2ShadowPanel2 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Guna2ShadowPanel3 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Guna2ShadowPanel1.SuspendLayout()
+        Guna2ShadowPanel2.SuspendLayout()
+        Guna2ShadowPanel3.SuspendLayout()
         SuspendLayout()
         ' 
         ' Guna2BorderlessForm1
@@ -54,7 +60,7 @@ Partial Class FormHasilAwal
         ' 
         Guna2HtmlLabel1.BackColor = Color.Transparent
         Guna2HtmlLabel1.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Guna2HtmlLabel1.Location = New Point(338, 30)
+        Guna2HtmlLabel1.Location = New Point(397, 30)
         Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
         Guna2HtmlLabel1.Size = New Size(73, 22)
         Guna2HtmlLabel1.TabIndex = 0
@@ -64,7 +70,7 @@ Partial Class FormHasilAwal
         ' 
         Guna2HtmlLabel2.BackColor = Color.Transparent
         Guna2HtmlLabel2.Font = New Font("Microsoft Sans Serif", 8.25F)
-        Guna2HtmlLabel2.Location = New Point(289, 58)
+        Guna2HtmlLabel2.Location = New Point(348, 58)
         Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
         Guna2HtmlLabel2.Size = New Size(170, 19)
         Guna2HtmlLabel2.TabIndex = 1
@@ -74,7 +80,7 @@ Partial Class FormHasilAwal
         ' 
         labelTopic.BackColor = Color.Transparent
         labelTopic.Font = New Font("Segoe UI", 20F, FontStyle.Bold)
-        labelTopic.Location = New Point(72, 108)
+        labelTopic.Location = New Point(25, 23)
         labelTopic.Name = "labelTopic"
         labelTopic.Size = New Size(292, 47)
         labelTopic.TabIndex = 2
@@ -83,7 +89,7 @@ Partial Class FormHasilAwal
         ' labelTimer
         ' 
         labelTimer.BackColor = Color.Transparent
-        labelTimer.Location = New Point(690, 30)
+        labelTimer.Location = New Point(746, 30)
         labelTimer.Name = "labelTimer"
         labelTimer.Size = New Size(78, 22)
         labelTimer.TabIndex = 3
@@ -92,7 +98,7 @@ Partial Class FormHasilAwal
         ' Guna2HtmlLabel3
         ' 
         Guna2HtmlLabel3.BackColor = Color.Transparent
-        Guna2HtmlLabel3.Location = New Point(72, 258)
+        Guna2HtmlLabel3.Location = New Point(25, 17)
         Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
         Guna2HtmlLabel3.Size = New Size(127, 22)
         Guna2HtmlLabel3.TabIndex = 4
@@ -101,7 +107,7 @@ Partial Class FormHasilAwal
         ' Guna2HtmlLabel4
         ' 
         Guna2HtmlLabel4.BackColor = Color.Transparent
-        Guna2HtmlLabel4.Location = New Point(500, 258)
+        Guna2HtmlLabel4.Location = New Point(16, 17)
         Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
         Guna2HtmlLabel4.Size = New Size(165, 22)
         Guna2HtmlLabel4.TabIndex = 5
@@ -111,7 +117,7 @@ Partial Class FormHasilAwal
         ' 
         labelMetode.BackColor = Color.Transparent
         labelMetode.Font = New Font("Segoe UI", 12F)
-        labelMetode.Location = New Point(72, 286)
+        labelMetode.Location = New Point(25, 45)
         labelMetode.Name = "labelMetode"
         labelMetode.Size = New Size(213, 30)
         labelMetode.TabIndex = 6
@@ -121,7 +127,7 @@ Partial Class FormHasilAwal
         ' 
         labelRekomendasi.BackColor = Color.Transparent
         labelRekomendasi.Font = New Font("Segoe UI", 12F)
-        labelRekomendasi.Location = New Point(500, 286)
+        labelRekomendasi.Location = New Point(16, 45)
         labelRekomendasi.Name = "labelRekomendasi"
         labelRekomendasi.Size = New Size(171, 30)
         labelRekomendasi.TabIndex = 7
@@ -131,7 +137,7 @@ Partial Class FormHasilAwal
         ' 
         Guna2HtmlLabel5.BackColor = Color.Transparent
         Guna2HtmlLabel5.Font = New Font("Segoe UI Semibold", 10.2F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point, CByte(0))
-        Guna2HtmlLabel5.Location = New Point(145, 343)
+        Guna2HtmlLabel5.Location = New Point(198, 428)
         Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
         Guna2HtmlLabel5.Size = New Size(490, 25)
         Guna2HtmlLabel5.TabIndex = 8
@@ -145,9 +151,10 @@ Partial Class FormHasilAwal
         endButton.DisabledState.CustomBorderColor = Color.DarkGray
         endButton.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         endButton.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        endButton.FillColor = Color.Coral
         endButton.Font = New Font("Segoe UI", 9F)
         endButton.ForeColor = Color.White
-        endButton.Location = New Point(172, 385)
+        endButton.Location = New Point(225, 470)
         endButton.Name = "endButton"
         endButton.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         endButton.Size = New Size(212, 39)
@@ -162,9 +169,10 @@ Partial Class FormHasilAwal
         nextButton.DisabledState.CustomBorderColor = Color.DarkGray
         nextButton.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         nextButton.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        nextButton.FillColor = Color.Teal
         nextButton.Font = New Font("Segoe UI", 9F)
         nextButton.ForeColor = Color.White
-        nextButton.Location = New Point(390, 385)
+        nextButton.Location = New Point(443, 470)
         nextButton.Name = "nextButton"
         nextButton.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         nextButton.Size = New Size(225, 39)
@@ -179,7 +187,7 @@ Partial Class FormHasilAwal
         ' 
         labelTopic2.BackColor = Color.Transparent
         labelTopic2.Font = New Font("Segoe UI", 12F)
-        labelTopic2.Location = New Point(72, 161)
+        labelTopic2.Location = New Point(25, 76)
         labelTopic2.Name = "labelTopic2"
         labelTopic2.Size = New Size(182, 30)
         labelTopic2.TabIndex = 11
@@ -189,33 +197,75 @@ Partial Class FormHasilAwal
         ' 
         labelTopic3.BackColor = Color.Transparent
         labelTopic3.Font = New Font("Segoe UI", 10F)
-        labelTopic3.Location = New Point(72, 197)
+        labelTopic3.Location = New Point(25, 121)
         labelTopic3.Name = "labelTopic3"
         labelTopic3.Size = New Size(159, 25)
         labelTopic3.TabIndex = 12
         labelTopic3.Text = "Label Topik Utama 3"
         ' 
+        ' Guna2ShadowPanel1
+        ' 
+        Guna2ShadowPanel1.BackColor = Color.Transparent
+        Guna2ShadowPanel1.Controls.Add(labelTopic)
+        Guna2ShadowPanel1.Controls.Add(labelTopic2)
+        Guna2ShadowPanel1.Controls.Add(labelTopic3)
+        Guna2ShadowPanel1.FillColor = Color.Azure
+        Guna2ShadowPanel1.Location = New Point(65, 114)
+        Guna2ShadowPanel1.Name = "Guna2ShadowPanel1"
+        Guna2ShadowPanel1.Radius = 8
+        Guna2ShadowPanel1.ShadowColor = Color.Black
+        Guna2ShadowPanel1.Size = New Size(759, 171)
+        Guna2ShadowPanel1.TabIndex = 13
+        ' 
+        ' Guna2ShadowPanel2
+        ' 
+        Guna2ShadowPanel2.BackColor = Color.Transparent
+        Guna2ShadowPanel2.Controls.Add(Guna2HtmlLabel3)
+        Guna2ShadowPanel2.Controls.Add(labelMetode)
+        Guna2ShadowPanel2.FillColor = Color.Azure
+        Guna2ShadowPanel2.Location = New Point(65, 291)
+        Guna2ShadowPanel2.Name = "Guna2ShadowPanel2"
+        Guna2ShadowPanel2.Radius = 8
+        Guna2ShadowPanel2.ShadowColor = Color.Black
+        Guna2ShadowPanel2.Size = New Size(372, 92)
+        Guna2ShadowPanel2.TabIndex = 14
+        ' 
+        ' Guna2ShadowPanel3
+        ' 
+        Guna2ShadowPanel3.BackColor = Color.Transparent
+        Guna2ShadowPanel3.Controls.Add(Guna2HtmlLabel4)
+        Guna2ShadowPanel3.Controls.Add(labelRekomendasi)
+        Guna2ShadowPanel3.FillColor = Color.Azure
+        Guna2ShadowPanel3.Location = New Point(443, 291)
+        Guna2ShadowPanel3.Name = "Guna2ShadowPanel3"
+        Guna2ShadowPanel3.Radius = 8
+        Guna2ShadowPanel3.ShadowColor = Color.Black
+        Guna2ShadowPanel3.Size = New Size(381, 92)
+        Guna2ShadowPanel3.TabIndex = 15
+        ' 
         ' FormHasilAwal
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
-        Controls.Add(labelTopic3)
-        Controls.Add(labelTopic2)
+        ClientSize = New Size(880, 560)
+        Controls.Add(Guna2ShadowPanel3)
+        Controls.Add(Guna2ShadowPanel2)
+        Controls.Add(Guna2ShadowPanel1)
         Controls.Add(nextButton)
         Controls.Add(endButton)
         Controls.Add(Guna2HtmlLabel5)
-        Controls.Add(labelRekomendasi)
-        Controls.Add(labelMetode)
-        Controls.Add(Guna2HtmlLabel4)
-        Controls.Add(Guna2HtmlLabel3)
         Controls.Add(labelTimer)
-        Controls.Add(labelTopic)
         Controls.Add(Guna2HtmlLabel2)
         Controls.Add(Guna2HtmlLabel1)
         FormBorderStyle = FormBorderStyle.None
         Name = "FormHasilAwal"
         Text = "FormHasilAwal"
+        Guna2ShadowPanel1.ResumeLayout(False)
+        Guna2ShadowPanel1.PerformLayout()
+        Guna2ShadowPanel2.ResumeLayout(False)
+        Guna2ShadowPanel2.PerformLayout()
+        Guna2ShadowPanel3.ResumeLayout(False)
+        Guna2ShadowPanel3.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -235,4 +285,7 @@ Partial Class FormHasilAwal
     Friend WithEvents questionTimer As Timer
     Friend WithEvents labelTopic3 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents labelTopic2 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2ShadowPanel3 As Guna.UI2.WinForms.Guna2ShadowPanel
+    Friend WithEvents Guna2ShadowPanel2 As Guna.UI2.WinForms.Guna2ShadowPanel
+    Friend WithEvents Guna2ShadowPanel1 As Guna.UI2.WinForms.Guna2ShadowPanel
 End Class

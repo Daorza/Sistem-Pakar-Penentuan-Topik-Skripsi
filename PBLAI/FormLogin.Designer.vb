@@ -22,14 +22,14 @@ Partial Class FormLogin
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         lblTitle = New Guna.UI2.WinForms.Guna2HtmlLabel()
         lblUsername = New Guna.UI2.WinForms.Guna2HtmlLabel()
         lblPassword = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -42,16 +42,17 @@ Partial Class FormLogin
         ' lblTitle
         ' 
         lblTitle.BackColor = Color.Transparent
-        lblTitle.Location = New Point(338, 41)
+        lblTitle.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblTitle.Location = New Point(331, 30)
         lblTitle.Name = "lblTitle"
-        lblTitle.Size = New Size(32, 22)
+        lblTitle.Size = New Size(42, 30)
         lblTitle.TabIndex = 7
         lblTitle.Text = "Title"
         ' 
         ' lblUsername
         ' 
         lblUsername.BackColor = Color.Transparent
-        lblUsername.Location = New Point(301, 87)
+        lblUsername.Location = New Point(120, 87)
         lblUsername.Name = "lblUsername"
         lblUsername.Size = New Size(69, 22)
         lblUsername.TabIndex = 8
@@ -60,7 +61,7 @@ Partial Class FormLogin
         ' lblPassword
         ' 
         lblPassword.BackColor = Color.Transparent
-        lblPassword.Location = New Point(300, 199)
+        lblPassword.Location = New Point(124, 199)
         lblPassword.Name = "lblPassword"
         lblPassword.Size = New Size(65, 22)
         lblPassword.TabIndex = 9
@@ -68,39 +69,44 @@ Partial Class FormLogin
         ' 
         ' btnLogin
         ' 
-        btnLogin.CustomizableEdges = CustomizableEdges1
+        btnLogin.BorderRadius = 8
+        btnLogin.CustomizableEdges = CustomizableEdges9
         btnLogin.DisabledState.BorderColor = Color.DarkGray
         btnLogin.DisabledState.CustomBorderColor = Color.DarkGray
         btnLogin.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnLogin.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnLogin.FillColor = Color.Teal
         btnLogin.Font = New Font("Segoe UI", 9F)
         btnLogin.ForeColor = Color.White
-        btnLogin.Location = New Point(216, 319)
+        btnLogin.Location = New Point(361, 328)
         btnLogin.Name = "btnLogin"
-        btnLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        btnLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         btnLogin.Size = New Size(225, 56)
         btnLogin.TabIndex = 10
         btnLogin.Text = "Login"
         ' 
         ' btnCancel
         ' 
-        btnCancel.CustomizableEdges = CustomizableEdges3
+        btnCancel.BorderRadius = 8
+        btnCancel.CustomizableEdges = CustomizableEdges11
         btnCancel.DisabledState.BorderColor = Color.DarkGray
         btnCancel.DisabledState.CustomBorderColor = Color.DarkGray
         btnCancel.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnCancel.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnCancel.FillColor = Color.Coral
         btnCancel.Font = New Font("Segoe UI", 9F)
         btnCancel.ForeColor = Color.White
-        btnCancel.Location = New Point(457, 319)
+        btnCancel.Location = New Point(120, 328)
         btnCancel.Name = "btnCancel"
-        btnCancel.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        btnCancel.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         btnCancel.Size = New Size(225, 56)
         btnCancel.TabIndex = 11
-        btnCancel.Text = "Cancel"
+        btnCancel.Text = "Batal"
         ' 
         ' txtUsername
         ' 
-        txtUsername.CustomizableEdges = CustomizableEdges5
+        txtUsername.BorderRadius = 8
+        txtUsername.CustomizableEdges = CustomizableEdges13
         txtUsername.DefaultText = ""
         txtUsername.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtUsername.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -109,18 +115,19 @@ Partial Class FormLogin
         txtUsername.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtUsername.Font = New Font("Segoe UI", 9F)
         txtUsername.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtUsername.Location = New Point(300, 116)
+        txtUsername.Location = New Point(120, 116)
         txtUsername.Margin = New Padding(3, 4, 3, 4)
         txtUsername.Name = "txtUsername"
         txtUsername.PlaceholderText = ""
         txtUsername.SelectedText = ""
-        txtUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        txtUsername.Size = New Size(286, 60)
+        txtUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        txtUsername.Size = New Size(466, 60)
         txtUsername.TabIndex = 12
         ' 
         ' txtPassword
         ' 
-        txtPassword.CustomizableEdges = CustomizableEdges7
+        txtPassword.BorderRadius = 8
+        txtPassword.CustomizableEdges = CustomizableEdges15
         txtPassword.DefaultText = ""
         txtPassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtPassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -129,20 +136,20 @@ Partial Class FormLogin
         txtPassword.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtPassword.Font = New Font("Segoe UI", 9F)
         txtPassword.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtPassword.Location = New Point(300, 228)
+        txtPassword.Location = New Point(120, 228)
         txtPassword.Margin = New Padding(3, 4, 3, 4)
         txtPassword.Name = "txtPassword"
         txtPassword.PlaceholderText = ""
         txtPassword.SelectedText = ""
-        txtPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        txtPassword.Size = New Size(286, 60)
+        txtPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        txtPassword.Size = New Size(466, 60)
         txtPassword.TabIndex = 13
         ' 
         ' FormLogin
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(702, 450)
         Controls.Add(txtPassword)
         Controls.Add(txtUsername)
         Controls.Add(btnCancel)

@@ -335,4 +335,9 @@ Public Class FormHasilAkhir
         currentY += 10
         e.Graphics.DrawString("Dokumen ini digenerate secara otomatis oleh Sistem Pakar.", smallFont, Brushes.Gray, startX, currentY)
     End Sub
+
+    Private Sub Guna2HtmlLabel5_Click(sender As Object, e As EventArgs) Handles Guna2HtmlLabel5.Click
+        Guna2HtmlLabel5.Text = "Selamat! " + GlobalUser.Nama + " (" + GlobalUser.NIM + ") - " + GlobalUser.Prodi + " telah menyelesaikan tes. Semoga membantu!"
+    End Sub
+
 End Class

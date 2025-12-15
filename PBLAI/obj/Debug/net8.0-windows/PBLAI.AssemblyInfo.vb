@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("PBLAI"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d2bd4018bdc9d19b1e92d2230bcca041f01e02f"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f247e47e5a338ed5d715b83ebb29824e6bb9e6e3"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("PBLAI"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("PBLAI"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

@@ -78,6 +78,7 @@ Public Class FormAddEditTopic
         ' 
         ' txtKode
         ' 
+        txtKode.BorderRadius = 8
         txtKode.CustomizableEdges = CustomizableEdges1
         txtKode.DefaultText = ""
         txtKode.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -87,17 +88,18 @@ Public Class FormAddEditTopic
         txtKode.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtKode.Font = New Font("Segoe UI", 9F)
         txtKode.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtKode.Location = New Point(115, 49)
+        txtKode.Location = New Point(115, 53)
         txtKode.Margin = New Padding(3, 4, 3, 4)
         txtKode.Name = "txtKode"
         txtKode.PlaceholderText = ""
         txtKode.SelectedText = ""
         txtKode.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        txtKode.Size = New Size(286, 60)
+        txtKode.Size = New Size(482, 60)
         txtKode.TabIndex = 0
         ' 
         ' txtNama
         ' 
+        txtNama.BorderRadius = 8
         txtNama.CustomizableEdges = CustomizableEdges3
         txtNama.DefaultText = ""
         txtNama.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -107,25 +109,27 @@ Public Class FormAddEditTopic
         txtNama.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtNama.Font = New Font("Segoe UI", 9F)
         txtNama.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtNama.Location = New Point(115, 146)
+        txtNama.Location = New Point(115, 165)
         txtNama.Margin = New Padding(3, 4, 3, 4)
         txtNama.Name = "txtNama"
         txtNama.PlaceholderText = ""
         txtNama.SelectedText = ""
         txtNama.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        txtNama.Size = New Size(286, 60)
+        txtNama.Size = New Size(482, 60)
         txtNama.TabIndex = 1
         ' 
         ' btnSave
         ' 
+        btnSave.BorderRadius = 8
         btnSave.CustomizableEdges = CustomizableEdges5
         btnSave.DisabledState.BorderColor = Color.DarkGray
         btnSave.DisabledState.CustomBorderColor = Color.DarkGray
         btnSave.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnSave.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnSave.FillColor = Color.Teal
         btnSave.Font = New Font("Segoe UI", 9F)
         btnSave.ForeColor = Color.White
-        btnSave.Location = New Point(115, 297)
+        btnSave.Location = New Point(372, 297)
         btnSave.Name = "btnSave"
         btnSave.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         btnSave.Size = New Size(225, 56)
@@ -134,14 +138,16 @@ Public Class FormAddEditTopic
         ' 
         ' btnCancel
         ' 
+        btnCancel.BorderRadius = 8
         btnCancel.CustomizableEdges = CustomizableEdges7
         btnCancel.DisabledState.BorderColor = Color.DarkGray
         btnCancel.DisabledState.CustomBorderColor = Color.DarkGray
         btnCancel.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnCancel.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnCancel.FillColor = Color.Coral
         btnCancel.Font = New Font("Segoe UI", 9F)
         btnCancel.ForeColor = Color.White
-        btnCancel.Location = New Point(372, 297)
+        btnCancel.Location = New Point(115, 297)
         btnCancel.Name = "btnCancel"
         btnCancel.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         btnCancel.Size = New Size(225, 56)
@@ -151,7 +157,7 @@ Public Class FormAddEditTopic
         ' kodeTopik
         ' 
         kodeTopik.BackColor = Color.Transparent
-        kodeTopik.Location = New Point(115, 20)
+        kodeTopik.Location = New Point(115, 24)
         kodeTopik.Name = "kodeTopik"
         kodeTopik.Size = New Size(79, 22)
         kodeTopik.TabIndex = 4
@@ -160,7 +166,7 @@ Public Class FormAddEditTopic
         ' namaTopik
         ' 
         namaTopik.BackColor = Color.Transparent
-        namaTopik.Location = New Point(115, 117)
+        namaTopik.Location = New Point(115, 136)
         namaTopik.Name = "namaTopik"
         namaTopik.Size = New Size(84, 22)
         namaTopik.TabIndex = 5
@@ -168,7 +174,7 @@ Public Class FormAddEditTopic
         ' 
         ' FormAddEditTopic
         ' 
-        ClientSize = New Size(803, 412)
+        ClientSize = New Size(702, 412)
         Controls.Add(namaTopik)
         Controls.Add(kodeTopik)
         Controls.Add(btnCancel)

@@ -76,7 +76,7 @@ Partial Class Form1
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button1.FillColor = Color.OrangeRed
+        Guna2Button1.FillColor = Color.Coral
         Guna2Button1.Font = New Font("Segoe UI", 9F)
         Guna2Button1.ForeColor = Color.White
         Guna2Button1.Location = New Point(200, 342)
@@ -95,7 +95,7 @@ Partial Class Form1
         buttonMulai.DisabledState.CustomBorderColor = Color.DarkGray
         buttonMulai.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         buttonMulai.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        buttonMulai.FillColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
+        buttonMulai.FillColor = Color.Teal
         buttonMulai.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         buttonMulai.ForeColor = Color.White
         buttonMulai.Location = New Point(200, 280)
@@ -179,12 +179,14 @@ Partial Class Form1
         ' 
         ' AdminLogin
         ' 
+        AdminLogin.BackColor = SystemColors.ActiveCaption
+        AdminLogin.ForeColor = SystemColors.ButtonHighlight
         AdminLogin.Location = New Point(12, 448)
         AdminLogin.Name = "AdminLogin"
         AdminLogin.Size = New Size(113, 29)
         AdminLogin.TabIndex = 6
         AdminLogin.Text = "AdminLogin"
-        AdminLogin.UseVisualStyleBackColor = True
+        AdminLogin.UseVisualStyleBackColor = False
         ' 
         ' Form1
         ' 

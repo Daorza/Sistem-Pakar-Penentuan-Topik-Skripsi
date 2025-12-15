@@ -95,9 +95,10 @@ Public Class FormManageTopics
         ' 
         DataGridViewCellStyle1.BackColor = Color.White
         dgvTopics.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        dgvTopics.BackgroundColor = Color.Azure
         DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9.0F)
         DataGridViewCellStyle2.ForeColor = Color.White
         DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
         DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
@@ -107,36 +108,36 @@ Public Class FormManageTopics
         dgvTopics.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = Color.White
-        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F)
+        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9.0F)
         DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
         DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
         DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
         dgvTopics.DefaultCellStyle = DataGridViewCellStyle3
         dgvTopics.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgvTopics.Location = New Point(39, 252)
+        dgvTopics.Location = New Point(39, 200)
         dgvTopics.Name = "dgvTopics"
         dgvTopics.RowHeadersVisible = False
         dgvTopics.RowHeadersWidth = 51
-        dgvTopics.Size = New Size(1049, 236)
+        dgvTopics.Size = New Size(1049, 248)
         dgvTopics.TabIndex = 11
         dgvTopics.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
         dgvTopics.ThemeStyle.AlternatingRowsStyle.Font = Nothing
         dgvTopics.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
         dgvTopics.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
         dgvTopics.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
-        dgvTopics.ThemeStyle.BackColor = Color.White
+        dgvTopics.ThemeStyle.BackColor = Color.Azure
         dgvTopics.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         dgvTopics.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
         dgvTopics.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
-        dgvTopics.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F)
+        dgvTopics.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9.0F)
         dgvTopics.ThemeStyle.HeaderStyle.ForeColor = Color.White
         dgvTopics.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         dgvTopics.ThemeStyle.HeaderStyle.Height = 4
         dgvTopics.ThemeStyle.ReadOnly = False
         dgvTopics.ThemeStyle.RowsStyle.BackColor = Color.White
         dgvTopics.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        dgvTopics.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F)
+        dgvTopics.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9.0F)
         dgvTopics.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
         dgvTopics.ThemeStyle.RowsStyle.Height = 29
         dgvTopics.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
@@ -144,14 +145,16 @@ Public Class FormManageTopics
         ' 
         ' btnClose
         ' 
+        btnClose.BorderRadius = 8
         btnClose.CustomizableEdges = CustomizableEdges1
         btnClose.DisabledState.BorderColor = Color.DarkGray
         btnClose.DisabledState.CustomBorderColor = Color.DarkGray
         btnClose.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnClose.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnClose.Font = New Font("Segoe UI", 9F)
+        btnClose.FillColor = Color.Coral
+        btnClose.Font = New Font("Segoe UI", 9.0F)
         btnClose.ForeColor = Color.White
-        btnClose.Location = New Point(472, 88)
+        btnClose.Location = New Point(39, 32)
         btnClose.Name = "btnClose"
         btnClose.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         btnClose.Size = New Size(225, 56)
@@ -160,14 +163,16 @@ Public Class FormManageTopics
         ' 
         ' btnDelete
         ' 
+        btnDelete.BorderRadius = 8
         btnDelete.CustomizableEdges = CustomizableEdges3
         btnDelete.DisabledState.BorderColor = Color.DarkGray
         btnDelete.DisabledState.CustomBorderColor = Color.DarkGray
         btnDelete.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnDelete.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnDelete.Font = New Font("Segoe UI", 9F)
+        btnDelete.FillColor = Color.OrangeRed
+        btnDelete.Font = New Font("Segoe UI", 9.0F)
         btnDelete.ForeColor = Color.White
-        btnDelete.Location = New Point(329, 174)
+        btnDelete.Location = New Point(632, 32)
         btnDelete.Name = "btnDelete"
         btnDelete.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         btnDelete.Size = New Size(225, 56)
@@ -176,14 +181,16 @@ Public Class FormManageTopics
         ' 
         ' btnEdit
         ' 
+        btnEdit.BorderRadius = 8
         btnEdit.CustomizableEdges = CustomizableEdges5
         btnEdit.DisabledState.BorderColor = Color.DarkGray
         btnEdit.DisabledState.CustomBorderColor = Color.DarkGray
         btnEdit.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnEdit.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnEdit.Font = New Font("Segoe UI", 9F)
+        btnEdit.FillColor = Color.Goldenrod
+        btnEdit.Font = New Font("Segoe UI", 9.0F)
         btnEdit.ForeColor = Color.White
-        btnEdit.Location = New Point(863, 197)
+        btnEdit.Location = New Point(863, 32)
         btnEdit.Name = "btnEdit"
         btnEdit.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         btnEdit.Size = New Size(225, 56)
@@ -192,14 +199,16 @@ Public Class FormManageTopics
         ' 
         ' btnAdd
         ' 
+        btnAdd.BorderRadius = 8
         btnAdd.CustomizableEdges = CustomizableEdges7
         btnAdd.DisabledState.BorderColor = Color.DarkGray
         btnAdd.DisabledState.CustomBorderColor = Color.DarkGray
         btnAdd.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnAdd.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnAdd.Font = New Font("Segoe UI", 9F)
+        btnAdd.FillColor = Color.Teal
+        btnAdd.Font = New Font("Segoe UI", 9.0F)
         btnAdd.ForeColor = Color.White
-        btnAdd.Location = New Point(223, 60)
+        btnAdd.Location = New Point(270, 32)
         btnAdd.Name = "btnAdd"
         btnAdd.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         btnAdd.Size = New Size(225, 56)
@@ -209,15 +218,16 @@ Public Class FormManageTopics
         ' lblTitle
         ' 
         lblTitle.BackColor = Color.Transparent
-        lblTitle.Location = New Point(602, 176)
+        lblTitle.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblTitle.Location = New Point(39, 164)
         lblTitle.Name = "lblTitle"
-        lblTitle.Size = New Size(86, 22)
+        lblTitle.Size = New Size(115, 30)
         lblTitle.TabIndex = 6
         lblTitle.Text = "Daftar Topik"
         ' 
         ' FormManageTopics
         ' 
-        ClientSize = New Size(1126, 528)
+        ClientSize = New Size(1107, 460)
         Controls.Add(dgvTopics)
         Controls.Add(btnClose)
         Controls.Add(btnDelete)
@@ -242,4 +252,5 @@ Public Class FormManageTopics
     Friend WithEvents btnAdd As Guna.UI2.WinForms.Guna2Button
 
     Friend WithEvents lblTitle As Guna.UI2.WinForms.Guna2HtmlLabel
+
 End Class

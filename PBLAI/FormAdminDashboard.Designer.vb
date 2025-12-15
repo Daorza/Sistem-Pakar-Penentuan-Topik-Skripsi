@@ -40,62 +40,69 @@ Partial Class FormAdminDashboard
         ' 
         ' panelMenu
         ' 
-        panelMenu.Location = New Point(267, 247)
+        panelMenu.Location = New Point(283, 225)
         panelMenu.Name = "panelMenu"
-        panelMenu.Size = New Size(250, 125)
+        panelMenu.Size = New Size(490, 118)
         panelMenu.TabIndex = 4
         ' 
         ' btnManageTopics
         ' 
+        btnManageTopics.BorderRadius = 8
         btnManageTopics.CustomizableEdges = CustomizableEdges1
         btnManageTopics.DisabledState.BorderColor = Color.DarkGray
         btnManageTopics.DisabledState.CustomBorderColor = Color.DarkGray
         btnManageTopics.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnManageTopics.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnManageTopics.Font = New Font("Segoe UI", 9.0F)
+        btnManageTopics.FillColor = Color.Teal
+        btnManageTopics.Font = New Font("Segoe UI", 9F)
         btnManageTopics.ForeColor = Color.White
-        btnManageTopics.Location = New Point(35, 163)
+        btnManageTopics.Location = New Point(35, 97)
         btnManageTopics.Name = "btnManageTopics"
         btnManageTopics.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         btnManageTopics.Size = New Size(225, 56)
         btnManageTopics.TabIndex = 14
-        btnManageTopics.Text = "Manage Topics"
+        btnManageTopics.Text = "Kelola Topik"
         ' 
         ' btnManageQuestions
         ' 
+        btnManageQuestions.BorderRadius = 8
         btnManageQuestions.CustomizableEdges = CustomizableEdges3
         btnManageQuestions.DisabledState.BorderColor = Color.DarkGray
         btnManageQuestions.DisabledState.CustomBorderColor = Color.DarkGray
         btnManageQuestions.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnManageQuestions.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnManageQuestions.Font = New Font("Segoe UI", 9.0F)
+        btnManageQuestions.FillColor = Color.Teal
+        btnManageQuestions.Font = New Font("Segoe UI", 9F)
         btnManageQuestions.ForeColor = Color.White
-        btnManageQuestions.Location = New Point(35, 225)
+        btnManageQuestions.Location = New Point(35, 159)
         btnManageQuestions.Name = "btnManageQuestions"
         btnManageQuestions.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         btnManageQuestions.Size = New Size(225, 56)
         btnManageQuestions.TabIndex = 13
-        btnManageQuestions.Text = "Manage Questions"
+        btnManageQuestions.Text = "Kelola Pertanyaan"
         ' 
         ' lblWelcome
         ' 
         lblWelcome.BackColor = Color.Transparent
-        lblWelcome.Location = New Point(101, 47)
+        lblWelcome.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblWelcome.Location = New Point(123, 40)
         lblWelcome.Name = "lblWelcome"
-        lblWelcome.Size = New Size(32, 22)
+        lblWelcome.Size = New Size(42, 30)
         lblWelcome.TabIndex = 12
         lblWelcome.Text = "Title"
         ' 
         ' btnLogout
         ' 
+        btnLogout.BorderRadius = 8
         btnLogout.CustomizableEdges = CustomizableEdges5
         btnLogout.DisabledState.BorderColor = Color.DarkGray
         btnLogout.DisabledState.CustomBorderColor = Color.DarkGray
         btnLogout.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnLogout.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnLogout.Font = New Font("Segoe UI", 9.0F)
+        btnLogout.FillColor = Color.Coral
+        btnLogout.Font = New Font("Segoe UI", 9F)
         btnLogout.ForeColor = Color.White
-        btnLogout.Location = New Point(35, 101)
+        btnLogout.Location = New Point(35, 370)
         btnLogout.Name = "btnLogout"
         btnLogout.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         btnLogout.Size = New Size(225, 56)
@@ -104,23 +111,25 @@ Partial Class FormAdminDashboard
         ' 
         ' btnManageSubtopics
         ' 
+        btnManageSubtopics.BorderRadius = 8
         btnManageSubtopics.CustomizableEdges = CustomizableEdges7
         btnManageSubtopics.DisabledState.BorderColor = Color.DarkGray
         btnManageSubtopics.DisabledState.CustomBorderColor = Color.DarkGray
         btnManageSubtopics.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnManageSubtopics.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnManageSubtopics.Font = New Font("Segoe UI", 9.0F)
+        btnManageSubtopics.FillColor = Color.Teal
+        btnManageSubtopics.Font = New Font("Segoe UI", 9F)
         btnManageSubtopics.ForeColor = Color.White
-        btnManageSubtopics.Location = New Point(35, 287)
+        btnManageSubtopics.Location = New Point(35, 221)
         btnManageSubtopics.Name = "btnManageSubtopics"
         btnManageSubtopics.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         btnManageSubtopics.Size = New Size(225, 56)
         btnManageSubtopics.TabIndex = 16
-        btnManageSubtopics.Text = "Manage SubTopics"
+        btnManageSubtopics.Text = "Kelola Subtopik"
         ' 
         ' FormAdminDashboard
         ' 
-        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
         Controls.Add(btnManageSubtopics)

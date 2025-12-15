@@ -112,22 +112,25 @@ Public Class FormManageQuestions
         ' lblTitle
         ' 
         lblTitle.BackColor = Color.Transparent
-        lblTitle.Location = New Point(19, 163)
+        lblTitle.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblTitle.Location = New Point(31, 160)
         lblTitle.Name = "lblTitle"
-        lblTitle.Size = New Size(226, 22)
+        lblTitle.Size = New Size(308, 30)
         lblTitle.TabIndex = 0
         lblTitle.Text = "Daftar Pertanyaan & Aturan Pakar"
         ' 
         ' btnAdd
         ' 
+        btnAdd.BorderRadius = 8
         btnAdd.CustomizableEdges = CustomizableEdges1
         btnAdd.DisabledState.BorderColor = Color.DarkGray
         btnAdd.DisabledState.CustomBorderColor = Color.DarkGray
         btnAdd.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnAdd.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnAdd.FillColor = Color.Teal
         btnAdd.Font = New Font("Segoe UI", 9F)
         btnAdd.ForeColor = Color.White
-        btnAdd.Location = New Point(184, 41)
+        btnAdd.Location = New Point(262, 37)
         btnAdd.Name = "btnAdd"
         btnAdd.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         btnAdd.Size = New Size(225, 56)
@@ -136,14 +139,16 @@ Public Class FormManageQuestions
         ' 
         ' btnEdit
         ' 
+        btnEdit.BorderRadius = 8
         btnEdit.CustomizableEdges = CustomizableEdges3
         btnEdit.DisabledState.BorderColor = Color.DarkGray
         btnEdit.DisabledState.CustomBorderColor = Color.DarkGray
         btnEdit.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnEdit.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnEdit.FillColor = Color.Goldenrod
         btnEdit.Font = New Font("Segoe UI", 9F)
         btnEdit.ForeColor = Color.White
-        btnEdit.Location = New Point(827, 41)
+        btnEdit.Location = New Point(855, 37)
         btnEdit.Name = "btnEdit"
         btnEdit.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         btnEdit.Size = New Size(225, 56)
@@ -152,14 +157,16 @@ Public Class FormManageQuestions
         ' 
         ' btnDelete
         ' 
+        btnDelete.BorderRadius = 8
         btnDelete.CustomizableEdges = CustomizableEdges5
         btnDelete.DisabledState.BorderColor = Color.DarkGray
         btnDelete.DisabledState.CustomBorderColor = Color.DarkGray
         btnDelete.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnDelete.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnDelete.FillColor = Color.OrangeRed
         btnDelete.Font = New Font("Segoe UI", 9F)
         btnDelete.ForeColor = Color.White
-        btnDelete.Location = New Point(309, 113)
+        btnDelete.Location = New Point(624, 37)
         btnDelete.Name = "btnDelete"
         btnDelete.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         btnDelete.Size = New Size(225, 56)
@@ -168,14 +175,16 @@ Public Class FormManageQuestions
         ' 
         ' btnClose
         ' 
+        btnClose.BorderRadius = 8
         btnClose.CustomizableEdges = CustomizableEdges7
         btnClose.DisabledState.BorderColor = Color.DarkGray
         btnClose.DisabledState.CustomBorderColor = Color.DarkGray
         btnClose.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnClose.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnClose.FillColor = Color.Coral
         btnClose.Font = New Font("Segoe UI", 9F)
         btnClose.ForeColor = Color.White
-        btnClose.Location = New Point(452, 27)
+        btnClose.Location = New Point(31, 37)
         btnClose.Name = "btnClose"
         btnClose.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         btnClose.Size = New Size(225, 56)
@@ -186,6 +195,7 @@ Public Class FormManageQuestions
         ' 
         DataGridViewCellStyle1.BackColor = Color.White
         dgvQuestions.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        dgvQuestions.BackgroundColor = Color.Azure
         DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
         DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F)
@@ -205,18 +215,18 @@ Public Class FormManageQuestions
         DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
         dgvQuestions.DefaultCellStyle = DataGridViewCellStyle3
         dgvQuestions.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgvQuestions.Location = New Point(19, 191)
+        dgvQuestions.Location = New Point(31, 196)
         dgvQuestions.Name = "dgvQuestions"
         dgvQuestions.RowHeadersVisible = False
         dgvQuestions.RowHeadersWidth = 51
-        dgvQuestions.Size = New Size(1049, 188)
+        dgvQuestions.Size = New Size(1049, 237)
         dgvQuestions.TabIndex = 5
         dgvQuestions.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
         dgvQuestions.ThemeStyle.AlternatingRowsStyle.Font = Nothing
         dgvQuestions.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
         dgvQuestions.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
         dgvQuestions.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
-        dgvQuestions.ThemeStyle.BackColor = Color.White
+        dgvQuestions.ThemeStyle.BackColor = Color.Azure
         dgvQuestions.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         dgvQuestions.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
         dgvQuestions.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
